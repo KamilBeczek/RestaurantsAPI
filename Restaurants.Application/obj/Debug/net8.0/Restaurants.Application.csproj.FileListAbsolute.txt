@@ -13,3 +13,4 @@ C:\Users\beczl\OneDrive\Pulpit\Restaurants\Restaurants.Application\obj\Debug\net
 C:\Users\beczl\OneDrive\Pulpit\Restaurants\Restaurants.Application\obj\Debug\net8.0\refint\Restaurants.Application.dll
 C:\Users\beczl\OneDrive\Pulpit\Restaurants\Restaurants.Application\obj\Debug\net8.0\Restaurants.Application.pdb
 C:\Users\beczl\OneDrive\Pulpit\Restaurants\Restaurants.Application\obj\Debug\net8.0\ref\Restaurants.Application.dll
+C:\Users\beczl\OneDrive\Pulpit\Restaurants\Restaurants.Application\obj\Debug\net8.0\Restaurants.Application.sourcelink.json

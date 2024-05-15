@@ -9,3 +9,4 @@ C:\Users\beczl\OneDrive\Pulpit\Restaurants\Restaurants.Domain\obj\Debug\net8.0\R
 C:\Users\beczl\OneDrive\Pulpit\Restaurants\Restaurants.Domain\obj\Debug\net8.0\refint\Restaurants.Domain.dll
 C:\Users\beczl\OneDrive\Pulpit\Restaurants\Restaurants.Domain\obj\Debug\net8.0\Restaurants.Domain.pdb
 C:\Users\beczl\OneDrive\Pulpit\Restaurants\Restaurants.Domain\obj\Debug\net8.0\ref\Restaurants.Domain.dll
+C:\Users\beczl\OneDrive\Pulpit\Restaurants\Restaurants.Domain\obj\Debug\net8.0\Restaurants.Domain.sourcelink.json

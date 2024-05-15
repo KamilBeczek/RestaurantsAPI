@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7HdUiwPSdymTiE2Q5CIuv7FcnAtHqkc/zfI0aqkeyWA7tNThgxWxOoS5a5O4mmp22PxasrAW2W137b2KPHciGw==",
+  "dgSpecHash": "a+ar7NkQkbPcgY3iPDV9CaBtrzohP58N2IGzvTCUAtfw+31i6sTQHNnXv3fbkmx/4zkI7jFQ72APCvML1rMt/g==",
   "success": true,
   "projectFilePath": "C:\\Users\\beczl\\OneDrive\\Pulpit\\Restaurants\\Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,9 @@
     "C:\\Users\\beczl\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\beczl\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\beczl\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\beczl\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\beczl\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\beczl\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\beczl\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\beczl\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\beczl\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",

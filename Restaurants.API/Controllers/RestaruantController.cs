@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Restaurants.Application.Restaurants;
+using Restaurants.Application.Restaurants.Dtos;
 using System.Reflection.Metadata.Ecma335;
 
 namespace Restaurants.API.Controllers
@@ -27,6 +28,18 @@ namespace Restaurants.API.Controllers
 
             return Ok(restaruant);
 
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> CreateRestaurant([FromBody]CreateRestaurantDto createRestaurantDto)
+        {
+            if(!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            int id = await restaurantsService.Create(createRestaurantDto);
+            return CreatedAtAction(nameof(Get), new { id }, null);
         }
     }
 }

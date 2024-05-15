@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "9gSP1z4dj+SkNqXrpLqITgkD7As4UIhA8J5qWzWoX5B0rxlUbNK9cP1tWEs380YgDNmxG6es9UVae9Ea/R7CsQ==",
+  "dgSpecHash": "7cfKg2DjmzgWgouvv3nKU3fN8JV9hmREYSc+7qrZfuDseaUdCmho6h5HPoMeFgjLWfjOMX/JPjQOQBUmgTU/7Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\beczl\\OneDrive\\Pulpit\\Restaurants\\Restaurants.Application\\Restaurants.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\beczl\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\beczl\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\beczl\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\beczl\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\beczl\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\beczl\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\beczl\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\beczl\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
