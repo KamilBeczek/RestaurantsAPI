@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZsVDs5F1QG0e3SGt7YrWdPpsIbEgC7Z/rwJ8EPFNh1zMkcbGfq4CWHWco0UcyEhpOUzrtZxfHbHXRtf3ohqNMQ==",
+  "dgSpecHash": "Sr90MybbpQWcWSGt/ysM3oyDobb+PKbJChQQKS4XqIcaB7DCA9nppY8GbDlHkCDL+cM/v90PekuQWuBCLZK4WA==",
   "success": true,
   "projectFilePath": "C:\\Users\\beczl\\OneDrive\\Pulpit\\Restaurants\\Restaurants.API\\Restaurants.API.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,8 @@
     "C:\\Users\\beczl\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
     "C:\\Users\\beczl\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\beczl\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\beczl\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\beczl\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\beczl\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\beczl\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
     "C:\\Users\\beczl\\.nuget\\packages\\microsoft.codeanalysis.common\\4.5.0\\microsoft.codeanalysis.common.4.5.0.nupkg.sha512",

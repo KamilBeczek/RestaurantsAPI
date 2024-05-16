@@ -142,3 +142,5 @@ C:\Users\beczl\OneDrive\Pulpit\Restaurants\Restaurants.API\bin\Debug\net8.0\Flue
 C:\Users\beczl\OneDrive\Pulpit\Restaurants\Restaurants.API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
 C:\Users\beczl\OneDrive\Pulpit\Restaurants\Restaurants.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\beczl\OneDrive\Pulpit\Restaurants\Restaurants.API\obj\Debug\net8.0\Restaurants.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\beczl\OneDrive\Pulpit\Restaurants\Restaurants.API\bin\Debug\net8.0\MediatR.dll
+C:\Users\beczl\OneDrive\Pulpit\Restaurants\Restaurants.API\bin\Debug\net8.0\MediatR.Contracts.dll

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7cfKg2DjmzgWgouvv3nKU3fN8JV9hmREYSc+7qrZfuDseaUdCmho6h5HPoMeFgjLWfjOMX/JPjQOQBUmgTU/7Q==",
+  "dgSpecHash": "7bsfQY6rVUEJZn0Ve5avgKvL09qEvgn0df1SP12kxiCTdEIC2zqfiViPfPGFcJf4DO2cqaNS7m1qLee768Tt5w==",
   "success": true,
   "projectFilePath": "C:\\Users\\beczl\\OneDrive\\Pulpit\\Restaurants\\Restaurants.Application\\Restaurants.Application.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,8 @@
     "C:\\Users\\beczl\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
     "C:\\Users\\beczl\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
     "C:\\Users\\beczl\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
+    "C:\\Users\\beczl\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\beczl\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\beczl\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\beczl\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\beczl\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",

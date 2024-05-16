@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\beczl\\OneDrive\\Pulpit\\Restaurants\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BD23DCC5-380C-46BB-BCDD-DEAA124B86D4}|Restaurants.Application\\Restaurants.Application.csproj|c:\\users\\beczl\\onedrive\\pulpit\\restaurants\\restaurants.application\\restaurants\\validators\\createrestaurantdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD23DCC5-380C-46BB-BCDD-DEAA124B86D4}|Restaurants.Application\\Restaurants.Application.csproj|solutionrelative:restaurants.application\\restaurants\\validators\\createrestaurantdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D24B3E30-3265-41FF-B01F-CD81F608FF06}|Restaurants.API\\Restaurants.API.csproj|c:\\users\\beczl\\onedrive\\pulpit\\restaurants\\restaurants.api\\restaurants.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{D24B3E30-3265-41FF-B01F-CD81F608FF06}|Restaurants.API\\Restaurants.API.csproj|solutionrelative:restaurants.api\\restaurants.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D24B3E30-3265-41FF-B01F-CD81F608FF06}|Restaurants.API\\Restaurants.API.csproj|c:\\users\\beczl\\onedrive\\pulpit\\restaurants\\restaurants.api\\controllers\\restaruantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D24B3E30-3265-41FF-B01F-CD81F608FF06}|Restaurants.API\\Restaurants.API.csproj|solutionrelative:restaurants.api\\controllers\\restaruantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD23DCC5-380C-46BB-BCDD-DEAA124B86D4}|Restaurants.Application\\Restaurants.Application.csproj|c:\\users\\beczl\\onedrive\\pulpit\\restaurants\\restaurants.application\\extensions\\servicecolletionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD23DCC5-380C-46BB-BCDD-DEAA124B86D4}|Restaurants.Application\\Restaurants.Application.csproj|solutionrelative:restaurants.application\\extensions\\servicecolletionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD23DCC5-380C-46BB-BCDD-DEAA124B86D4}|Restaurants.Application\\Restaurants.Application.csproj|c:\\users\\beczl\\onedrive\\pulpit\\restaurants\\restaurants.application\\restaurants\\dtos\\createrestaurantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD23DCC5-380C-46BB-BCDD-DEAA124B86D4}|Restaurants.Application\\Restaurants.Application.csproj|solutionrelative:restaurants.application\\restaurants\\dtos\\createrestaurantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD23DCC5-380C-46BB-BCDD-DEAA124B86D4}|Restaurants.Application\\Restaurants.Application.csproj|c:\\users\\beczl\\onedrive\\pulpit\\restaurants\\restaurants.application\\restaurants\\irestaurantsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD23DCC5-380C-46BB-BCDD-DEAA124B86D4}|Restaurants.Application\\Restaurants.Application.csproj|solutionrelative:restaurants.application\\restaurants\\irestaurantsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ServiceColletionExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\beczl\\OneDrive\\Pulpit\\Restaurants\\Restaurants.Application\\Extensions\\ServiceColletionExtensions.cs",
-              "RelativeDocumentMoniker": "Restaurants.Application\\Extensions\\ServiceColletionExtensions.cs",
-              "ToolTip": "C:\\Users\\beczl\\OneDrive\\Pulpit\\Restaurants\\Restaurants.Application\\Extensions\\ServiceColletionExtensions.cs",
-              "RelativeToolTip": "Restaurants.Application\\Extensions\\ServiceColletionExtensions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T20:58:34.932Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CreateRestaurantDtoValidator.cs",
-              "DocumentMoniker": "C:\\Users\\beczl\\OneDrive\\Pulpit\\Restaurants\\Restaurants.Application\\Restaurants\\Validators\\CreateRestaurantDtoValidator.cs",
-              "RelativeDocumentMoniker": "Restaurants.Application\\Restaurants\\Validators\\CreateRestaurantDtoValidator.cs",
-              "ToolTip": "C:\\Users\\beczl\\OneDrive\\Pulpit\\Restaurants\\Restaurants.Application\\Restaurants\\Validators\\CreateRestaurantDtoValidator.cs",
-              "RelativeToolTip": "Restaurants.Application\\Restaurants\\Validators\\CreateRestaurantDtoValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T23:01:14.929Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CreateRestaurantDto.cs",
-              "DocumentMoniker": "C:\\Users\\beczl\\OneDrive\\Pulpit\\Restaurants\\Restaurants.Application\\Restaurants\\Dtos\\CreateRestaurantDto.cs",
-              "RelativeDocumentMoniker": "Restaurants.Application\\Restaurants\\Dtos\\CreateRestaurantDto.cs",
-              "ToolTip": "C:\\Users\\beczl\\OneDrive\\Pulpit\\Restaurants\\Restaurants.Application\\Restaurants\\Dtos\\CreateRestaurantDto.cs",
-              "RelativeToolTip": "Restaurants.Application\\Restaurants\\Dtos\\CreateRestaurantDto.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAiwAoAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T22:01:14.284Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Restaurants.API.http",
               "DocumentMoniker": "C:\\Users\\beczl\\OneDrive\\Pulpit\\Restaurants\\Restaurants.API\\Restaurants.API.http",
               "RelativeDocumentMoniker": "Restaurants.API\\Restaurants.API.http",
               "ToolTip": "C:\\Users\\beczl\\OneDrive\\Pulpit\\Restaurants\\Restaurants.API\\Restaurants.API.http",
               "RelativeToolTip": "Restaurants.API\\Restaurants.API.http",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBMAAAAXAAAA",
+              "ViewState": "AQIAAAAAAADAli7jS1oRwAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-05-14T21:57:25.852Z",
+              "WhenOpened": "2024-05-16T21:34:51.703Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "RestaruantController.cs",
               "DocumentMoniker": "C:\\Users\\beczl\\OneDrive\\Pulpit\\Restaurants\\Restaurants.API\\Controllers\\RestaruantController.cs",
               "RelativeDocumentMoniker": "Restaurants.API\\Controllers\\RestaruantController.cs",
               "ToolTip": "C:\\Users\\beczl\\OneDrive\\Pulpit\\Restaurants\\Restaurants.API\\Controllers\\RestaruantController.cs",
               "RelativeToolTip": "Restaurants.API\\Controllers\\RestaruantController.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAowCYAAAANAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAEAAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T21:46:44.574Z",
+              "WhenOpened": "2024-05-16T20:53:15.996Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IRestaurantsService.cs",
-              "DocumentMoniker": "C:\\Users\\beczl\\OneDrive\\Pulpit\\Restaurants\\Restaurants.Application\\Restaurants\\IRestaurantsService.cs",
-              "RelativeDocumentMoniker": "Restaurants.Application\\Restaurants\\IRestaurantsService.cs",
-              "ToolTip": "C:\\Users\\beczl\\OneDrive\\Pulpit\\Restaurants\\Restaurants.Application\\Restaurants\\IRestaurantsService.cs",
-              "RelativeToolTip": "Restaurants.Application\\Restaurants\\IRestaurantsService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T21:46:18.337Z"
             }
           ]
         }
