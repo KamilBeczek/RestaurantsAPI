@@ -1,6 +1,7 @@
 @Restaurants.API_HostAddress = https://localhost:7210
+###
 
-PATCH {{Restaurants.API_HostAddress}}/api/restaurants/1
+PATCH {{Restaurants.API_HostAddress}}/api/restaurants/99
 Content-Type: application/json
 
 {

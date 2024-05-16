@@ -1,0 +1,16 @@
+C:\Users\beczl\OneDrive\Pulpit\Restaurants\Restaurants.Application\bin\Debug\net8.0\Restaurants.Application.deps.json
+C:\Users\beczl\OneDrive\Pulpit\Restaurants\Restaurants.Application\bin\Debug\net8.0\Restaurants.Application.dll
+C:\Users\beczl\OneDrive\Pulpit\Restaurants\Restaurants.Application\bin\Debug\net8.0\Restaurants.Application.pdb
+C:\Users\beczl\OneDrive\Pulpit\Restaurants\Restaurants.Application\bin\Debug\net8.0\Restaurants.Domain.dll
+C:\Users\beczl\OneDrive\Pulpit\Restaurants\Restaurants.Application\bin\Debug\net8.0\Restaurants.Domain.pdb
+C:\Users\beczl\OneDrive\Pulpit\Restaurants\Restaurants.Application\obj\Debug\net8.0\Restaurants.Application.csproj.AssemblyReference.cache
+C:\Users\beczl\OneDrive\Pulpit\Restaurants\Restaurants.Application\obj\Debug\net8.0\Restaurants.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\beczl\OneDrive\Pulpit\Restaurants\Restaurants.Application\obj\Debug\net8.0\Restaurants.Application.AssemblyInfoInputs.cache
+C:\Users\beczl\OneDrive\Pulpit\Restaurants\Restaurants.Application\obj\Debug\net8.0\Restaurants.Application.AssemblyInfo.cs
+C:\Users\beczl\OneDrive\Pulpit\Restaurants\Restaurants.Application\obj\Debug\net8.0\Restaurants.Application.csproj.CoreCompileInputs.cache
+C:\Users\beczl\OneDrive\Pulpit\Restaurants\Restaurants.Application\obj\Debug\net8.0\Restaurants.Application.sourcelink.json
+C:\Users\beczl\OneDrive\Pulpit\Restaurants\Restaurants.Application\obj\Debug\net8.0\Restaura.6AB96A7C.Up2Date
+C:\Users\beczl\OneDrive\Pulpit\Restaurants\Restaurants.Application\obj\Debug\net8.0\Restaurants.Application.dll
+C:\Users\beczl\OneDrive\Pulpit\Restaurants\Restaurants.Application\obj\Debug\net8.0\refint\Restaurants.Application.dll
+C:\Users\beczl\OneDrive\Pulpit\Restaurants\Restaurants.Application\obj\Debug\net8.0\Restaurants.Application.pdb
+C:\Users\beczl\OneDrive\Pulpit\Restaurants\Restaurants.Application\obj\Debug\net8.0\ref\Restaurants.Application.dll
