@@ -1,0 +1,13 @@
+@Restaurants.API_HostAddress = https://localhost:7210
+###
+
+PATCH {{Restaurants.API_HostAddress}}/api/restaurants/99
+Content-Type: application/json
+
+{
+   "Name": "Sample patch",
+   "Description": "This is a sample restaurant Description",
+   "HasDelivery": true
+}
+
+###
