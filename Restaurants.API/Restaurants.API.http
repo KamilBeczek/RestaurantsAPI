@@ -1,7 +1,7 @@
 @Restaurants.API_HostAddress = https://localhost:7210
 ###
 
-PATCH {{Restaurants.API_HostAddress}}/api/restaurants/99
+PATCH {{Restaurants.API_HostAddress}}/api/restaurants/1
 Content-Type: application/json
 
 {
@@ -9,5 +9,34 @@ Content-Type: application/json
    "Description": "This is a sample restaurant Description",
    "HasDelivery": true
 }
+
+###
+
+GET {{Restaurants.API_HostAddress}}/api/restaurants/1
+
+###
+
+POST {{Restaurants.API_HostAddress}}/api/restaurants
+Content-Type: application/json
+
+{
+  "Name": "test1",
+  "Description": "just testing",
+  "Category": "Indian",
+  "HasDelivery": true,
+  "City": "test"
+}
+
+###
+
+GET {{Restaurants.API_HostAddress}}/api/restaurants
+
+###
+
+GET {{Restaurants.API_HostAddress}}/api/restaurants
+
+###
+
+GET {{Restaurants.API_HostAddress}}/api/restaurants
 
 ###
