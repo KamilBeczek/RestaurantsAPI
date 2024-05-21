@@ -12,7 +12,7 @@ Content-Type: application/json
 
 ###
 
-GET {{Restaurants.API_HostAddress}}/api/restaurants/1
+GET {{Restaurants.API_HostAddress}}/api/restaurants/99
 
 ###
 
@@ -26,6 +26,10 @@ Content-Type: application/json
   "HasDelivery": true,
   "City": "test"
 }
+
+###
+
+GET {{Restaurants.API_HostAddress}}/api/restaurants
 
 ###
 
