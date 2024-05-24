@@ -12,6 +12,29 @@ Content-Type: application/json
 
 ###
 
-GET {{Restaurants.API_HostAddress}}/api/restaurants/2
+GET {{Restaurants.API_HostAddress}}/api/restaurants/1
+
+###
+
+POST {{Restaurants.API_HostAddress}}/api/restaurants/1/dishes
+Content-Type: application/json
+
+{
+    "Name": "Spaghetti Bolognase",
+    "Description": "Tasty classic Italian Pasta",
+    "Price": 50,
+    "KiloCalories": 20
+
+
+}
+
+###
+
+POST {{Restaurants.API_HostAddress}}/api/restaurant/{restaurantId}/dishes
+Content-Type: application/json
+
+{
+  //CreateDishCommand
+}
 
 ###

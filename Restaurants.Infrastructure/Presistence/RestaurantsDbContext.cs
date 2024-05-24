@@ -3,7 +3,7 @@ using Restaurants.Domain.Entities;
 
 namespace Restaurants.Infrastructure.Presistence;
 
-internal class RestaurantsDbContext(DbContextOptions<RestaurantsDbContext> options) : DbContext(options)
+public class RestaurantsDbContext(DbContextOptions<RestaurantsDbContext> options) : DbContext(options)
 {
     public string _connectionString = "Server=localhost\\SQLEXPRESS;Database=Resaurant;Trusted_Connection=True;TrustServerCertificate=True;";
 
