@@ -15,6 +15,5 @@ namespace Restaurants.Application.Restaurants.Dtos
         {
             CreateMap<Dish, DishDto>();
         }
-        
     }
 }

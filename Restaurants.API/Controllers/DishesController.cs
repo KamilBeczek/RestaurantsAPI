@@ -13,9 +13,8 @@ namespace Restaurants.API.Controllers
         {
             command.RestaurantId = restaurantId;
             await mediator.Send(command);
-            return Created();
 
+            return Created();
         }
     }
-
 }

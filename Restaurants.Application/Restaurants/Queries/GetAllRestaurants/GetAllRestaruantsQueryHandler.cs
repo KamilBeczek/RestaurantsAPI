@@ -10,7 +10,6 @@ namespace Restaurants.Application.Restaurants.Queries.GetAllRestaurants
         IMapper mapper,
         IRestaurantsRepository restaurantsRepository) : IRequestHandler<GetAllRestaruantsQuery, IEnumerable<RestaurantDto>>
     {
-
         public async Task<IEnumerable<RestaurantDto>> Handle(GetAllRestaruantsQuery request, CancellationToken cancellationToken)
         {
             logger.LogInformation("Getting all restaurants");

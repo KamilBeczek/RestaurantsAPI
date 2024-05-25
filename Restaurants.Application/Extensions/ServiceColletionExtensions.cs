@@ -15,9 +15,6 @@ namespace Restaurants.Application.Extensions
             services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(applicationAssembly));
             services.AddAutoMapper(applicationAssembly);
             services.AddValidatorsFromAssembly(applicationAssembly).AddFluentValidationAutoValidation();
-
         }
     }
 }
-
-

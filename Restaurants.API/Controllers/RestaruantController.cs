@@ -26,7 +26,6 @@ namespace Restaurants.API.Controllers
         {
             var restaruant = await mediator.Send(new GetRestaurantByIdQuery(id));
             return Ok(restaruant);
-
         }
 
         [HttpPost]
@@ -40,9 +39,7 @@ namespace Restaurants.API.Controllers
         public async Task<IActionResult> Delete([FromRoute] int id)
         {
             await mediator.Send(new DeleteRestaurantCommand(id));
-
             return NoContent();
-
         }
 
         [HttpPatch("{id}")]
@@ -52,7 +49,6 @@ namespace Restaurants.API.Controllers
         {
             command.Id = id;
             await mediator.Send(command);
-
             return NoContent();
         }
     }
