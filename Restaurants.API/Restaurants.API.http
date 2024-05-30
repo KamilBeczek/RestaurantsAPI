@@ -47,6 +47,10 @@ GET {{Restaurants.API_HostAddress}}/api/restaurants/1/dishes
 
 ###
 
-GET {{Restaurants.API_HostAddress}}/api/restaurants/{restaurantId}/dishes
+GET {{Restaurants.API_HostAddress}}/api/restaurants/1/dishes
+
+###
+
+DELETE {{Restaurants.API_HostAddress}}/api/restaurants/123/dishes
 
 ###
