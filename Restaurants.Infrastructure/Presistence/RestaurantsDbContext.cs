@@ -1,9 +1,11 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using Restaurants.Domain.Entities;
 
 namespace Restaurants.Infrastructure.Presistence;
 
-public class RestaurantsDbContext(DbContextOptions<RestaurantsDbContext> options) : DbContext(options)
+public class RestaurantsDbContext(DbContextOptions<RestaurantsDbContext> options) : 
+    IdentityDbContext<User>(options)
 {
     public string _connectionString = "Server=localhost\\SQLEXPRESS;Database=Resaurant;Trusted_Connection=True;TrustServerCertificate=True;";
 

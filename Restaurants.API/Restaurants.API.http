@@ -45,3 +45,21 @@ Content-Type: application/json
 GET {{Restaurants.API_HostAddress}}/api/restaurants/1/dishes
 
 ###
+
+POST {{Restaurants.API_HostAddress}}/register
+Content-Type: application/json
+
+{
+    "email": "testuser@test.com",
+    "password": "Password1!"
+}
+
+###
+
+POST {{Restaurants.API_HostAddress}}/login
+Content-Type: application/json
+
+{
+    "email": "testuser@test.com",
+    "password": "Password1"
+}
