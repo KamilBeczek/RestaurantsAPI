@@ -1,18 +1,18 @@
 @Restaurants.API_HostAddress = https://localhost:7210
+@token = CfDJ8PfSmAIyBIFDoLrJvv15EvjX4p6lQbzgaD2teG6YDSfD2eMXpoJBJisnMEfMt0P8Ry1MrQeUskC97oyeFnPyFJ3-iuG6zLHJ9MPYt3SlMXundhE3sM1DWV-C9f9SNUPbEHp9rxtw3c2ck-46E593asJGOjrEmcMGf53XejdpFWYUUd-9hjEWt9-FShdQGTg4C9JrKzMK5yMFdCXGywyBtKYyIMwA0OND65nIvt0VF7IadIPwXynmAQyWCeFBOZqtuAXzxRwfXl0-js-2a5WBT33C8XSCWsZ77qVWwPkEWOTrZM-7Py1HEgOS_Zz_O3DpPC0T4pxeGgslXkddsKugC1aXaE10OHY6T9O1qn7PMJwD1hKDwOvJ-TAqMSwqo4rRD5_yTdb-7_Hbyt7Z2cIMcWPaUVPO8_HcNm0DKq6hQOls6mMHq6CB7tVoyLBUtaQf3sEoHgY3Q7eizX5KWiaOMbM7j5Ev4Hd8NwEytwsQZxRP3onR3NhfuxYCW_-OjlW_Uz1AeetZ_Upo9DHykh4w0EQth3tXd5PKekBweJWbu9JIyKHc_ZdQyG7-_A-jWGFnTRNszpVjtwNo2-johQkxadZ2sn5505quC6BskIBtWYUntwaTlcoOyN1_HaoJwCB8ID4VtOqvlMxXZcLbA3XIqgUeMA5oBdp_aEsrlLOpMyJToI9UzR_lihCosIcSFvZ--w
 ###
 
-PATCH {{Restaurants.API_HostAddress}}/api/restaurants/1
+GET {{Restaurants.API_HostAddress}}/api/restaurants/
+Authorization: Bearer {{token}}
 Content-Type: application/json
 
 {
-   "Name": "Sample patch",
-   "Description": "This is a sample restaurant Description",
-   "HasDelivery": true
+
 }
 
 ###
 
-GET {{Restaurants.API_HostAddress}}/api/restaurants/1
+GET {{Restaurants.API_HostAddress}}/api/restaurants/
 
 ###
 
@@ -46,7 +46,7 @@ GET {{Restaurants.API_HostAddress}}/api/restaurants/1/dishes
 
 ###
 
-POST {{Restaurants.API_HostAddress}}/register
+POST {{Restaurants.API_HostAddress}}/api/identity/register
 Content-Type: application/json
 
 {
@@ -56,10 +56,10 @@ Content-Type: application/json
 
 ###
 
-POST {{Restaurants.API_HostAddress}}/login
+POST {{Restaurants.API_HostAddress}}/api/identity/login
 Content-Type: application/json
 
 {
     "email": "testuser@test.com",
-    "password": "Password1"
+    "password": "Password1!"
 }
