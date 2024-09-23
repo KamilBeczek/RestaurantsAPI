@@ -1,4 +1,5 @@
 @Restaurants.API_HostAddress = https://localhost:7210
+@token = CfDJ8NaqmwLYiH9MvKuHzIu8oKOZt6fwVN06rapw-5SsbqbhIhrWkqHrPEIeL-_nbdNgDQlDMGIFVa16t8hbNGFUWwkxj_Mrj9Fv7pFbxDzb-kerg5fJU3dpt2nj3QEtaRcihQKaKK-i3C0zLWYk6V-D8rX3Hl8DDhmx3mbRU_i74qEwAW6k4wT9SuVTrQ71LS-zX_SqChDWVgmR78z1Wn2fc9da8mVY7dB9fMcKN7wc4-ewZ3LZ261BnizikadGTzjJm4K_afPphWFVIFXf9hMq9mXUGGawXTnaEno6eEciMZ63QTYCWezqp3VpiYVwQhFhRKTvUD2GBYD9gNlEEVEz1COZyv_HfIzweFIQ-yvI9gLNkjrjtlnt50mexMI3Kv18WjnJhAhSN0bY4HC-fB7H9vFcVIsbUzFFcvP98ynqJBs0TCJy62sbsE6OeWqZbN3_DIwQshC1px4MtADX9XGLVlbKj6Ye3BJzBM8n3mR8YXDoBECDgS8GUcEhQxIp_VMtMXlyH9jXhSLnrdIjOzVj-uE5iNCe2qB1ON3RF1NxKDJ7B6I4Jn-Zmval8e4akA1BldV1f2SmypF2mEh4AwmJkz3qJzaFzihnOtqombrqWsX2mI_Bt66JvU1Cs_vxvZZTtDGA9Dt9jC6HbAHtpodlXwxOABvLJLU0wuBbwDyo3ngvaCRa4Bqkn4cMLVe_mkzHMQ
 ###
 
 PATCH {{Restaurants.API_HostAddress}}/api/restaurants/1
@@ -12,7 +13,8 @@ Content-Type: application/json
 
 ###
 
-GET {{Restaurants.API_HostAddress}}/api/restaurants/1
+GET {{Restaurants.API_HostAddress}}/api/restaurants
+#Authorization: Bearer {{token}}
 
 ###
 
@@ -30,14 +32,12 @@ Content-Type: application/json
 
 ###
 
-POST {{Restaurants.API_HostAddress}}/api/restaurants/1/dishes
+POST {{Restaurants.API_HostAddress}}/api/identity/login
 Content-Type: application/json
 
 {
-    "Name": "Testowy Tost",
-    "Description": "Smakuwa Tost",
-    "Price": 12.50,
-    "KiloCarloies": 750
+    "email": "testuser@test.com",
+    "password": "Password1!"
 }
 
 ###
