@@ -1,7 +1,6 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Logging;
-using Restaurants.Application.Users;
 using Restaurants.Domain;
 using Restaurants.Domain.Entities;
 using System;
@@ -10,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Restaurants.Application.Users.Commands
+namespace Restaurants.Application.Users.Commands.UpdateUserDetails
 {
     public class UpdateUserDetailsCommandHandler(ILogger<UpdateUserDetailsCommand> logger,
         IUserContext userContext,

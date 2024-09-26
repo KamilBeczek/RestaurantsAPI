@@ -7,7 +7,9 @@ using Restaurants.Application.Restaurants.Commands.UpdateRestaurant;
 using Restaurants.Application.Restaurants.Dtos;
 using Restaurants.Application.Restaurants.Queries.GetAllRestaurants;
 using Restaurants.Application.Restaurants.Queries.GetRestaurantById;
+using Restaurants.Domain.Constants;
 using Restaurants.Domain.Entities;
+using Restaurants.Infrastructure.Authorization;
 
 namespace Restaurants.API.Controllers
 {
@@ -25,6 +27,7 @@ namespace Restaurants.API.Controllers
         }
 
         [HttpGet("{id}")]
+        [Authorize(Policy = PolicyNames.HasNationality)]
         public async Task<ActionResult<RestaurantDto>> Get([FromRoute] int id)
         {
             var userId = User.Claims.FirstOrDefault(c => c.Type == "<id claim type<");
@@ -33,6 +36,7 @@ namespace Restaurants.API.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = UserRoles.Owner)]
         public async Task<IActionResult> CreateRestaurant([FromBody]CreateRestaurantCommand command)
         {
             int id = await mediator.Send(command);
