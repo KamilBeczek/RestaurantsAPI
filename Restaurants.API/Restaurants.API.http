@@ -1,5 +1,5 @@
 @Restaurants.API_HostAddress = https://localhost:7210
-@token = CfDJ8NaqmwLYiH9MvKuHzIu8oKPS9bHr7nC-M7EhMOvJ9T5Qeq8wC5d8RYOgdIAab0Rwn5Y_fR203cufBRbyrKarGWdMAXXGZJnXJcN51oNhu4wWovXLZ7CLwVaTStdJmwXKSnzkKAoJcuPGinBOIa0IV3SbWNAOvksGpfDTEKPGhfjclWLax-G3522PZjoFlIX0QNa7X11ZB5-U6sbLgqfLR3IsLimn-k_vLZT73ixZyJq--Tjp4F3eogRjFKL1VkLhwmLkn2eNZhXaB9dzWs4zczPDfcZVjyMDJJv0yZco0392GERJApaGONqhW5TUIKulFmAWVuMj0wBa01QbbrDUFRlAlPQjDjftXurMIcMLvqCxsCG1w3xSKXogiZhtHE6pnpA6aJX3Glc3uBApe8ZBHpgbEnYHWSfB_SN-LOGUkcjDIaJLVoOwXHpX7ooNQeEEF8d7mGKAMqi2dhtOptgqwSurNt-DrfSsabvxyrXEbf-QnjbGs9SYdxk011UX9L81dPAmOJ2HzhVd8qNMvNSTVJD0HxfCfr98BCzyzLTItTd353ziEMSl6cPVZTl5A19w_Uo6oI7sOG4CapFymQPW3hjEiZVp5dypiuTviDduTiUAkvbxPJmLIf_s8BRn8wO-Ij3v0vVbS9C71l-efXSPL-WbNVVc4y4fNwx6XoUg_7ynOpcM-UhaE1AWVJDtc2NihuBKD7SHuUGXI0VP2p6W1qHRa3c5a4diJ-pBrEk5MRFpZKguQ3CUS79AgkLfWk4bPxpG0saMuaBZbhGgnD3VmvpCa7werz5un3_4CKTiXVEfBHQed9YgStvkF3DzfStBmE_jcVy74WxEmGw6KDblh-nZ9TMU1KYd7JqnK9-CJQIb5OCgQUoGI4TKLZV-M1XoMw
+@token = CfDJ8NaqmwLYiH9MvKuHzIu8oKMuqdkb48TNLyrXvPmDvLqvmb67YS6pzdGDOiCAqSEOQ5qALHW64joL4jAUYVh9A4TgwmBOVOQxV0OnOBxcDSWA4WHL27B4mT55oiVdCo_sIxM2_RQ5GorK9k_3hObRws_rf998xX0pBEkLShXiFG_BbmD4XH3mTKrjnJ5yM5jY2qNCO5S_vQuvFvbiKlSe_ndIoYkrc5GKsP5hKwgufI0GPHa0qnb5dtADRWABlFlAOSO9JTAiMiW2oQfnJUui171NoTAtJq_fBHz6SS6ar-uGHOxeTiDzR_a2P-VPxhnEpp7LsQp3XOCSmXH5djI8nPupuZM3T_jbg1r6ZLQ0gh6tDpgA7d4hEx8DtF8pjdVfelnNbGQ5TF6kDa4DosgbLRGdhZxIOjb_Ha10b5iRn4smyBnMcVGqsosZYhjhd9OCK9yOvLGq_Ua7QyKJ2Tp6I9EseZDwnuurF9CIH0Ohc8-ZyvmprO0ij9QXEq6lo0BaEZEc3dE2Y0TamsB6qbltT9JFrIMcM25UD5myJ2rUV9_gTReyuvO8G4Bgk_-dgjUxA2wqUgnKaA35TBCnRxxnxIhxzZluVGk1ym9R5EWwxD2IgmuKnAqwLwnp7YOVls3Dmuf82O--KCznXmx70mF0daPv_UYdRA1J9bFrLfPOwkxvzECImwGB3uEKhM9sA4u3yqdJetVQNHhWeNZpdM8oTWpSSGoULgRR2lcMREGaovzvx23Ib-jtFeiI0L-FeK_0N_7AErRHqitDBaVjnkST3O6mJYKD0mYMtE1fBLLrenL6p9LRUS0SLvj6-bO669R_8EI5RXDhDHjlQQTObdCuBqcL-tnuvgIzhY-rp8XPKLxTShf_Ft0WPZHViXgPgYPa9g
 ###
 
 GET {{Restaurants.API_HostAddress}}/api/restaurants/
@@ -12,20 +12,26 @@ Content-Type: application/json
 
 ###
 
-GET {{Restaurants.API_HostAddress}}/api/restaurants/
+GET {{Restaurants.API_HostAddress}}/api/restaurants/1/dishes
 Authorization: Bearer {{token}}
 
 
 ###
 
-POST {{Restaurants.API_HostAddress}}/api/restaurants/1/dishes
+POST {{Restaurants.API_HostAddress}}/api/restaurants
 Content-Type: application/json
+Authorization: Bearer {{token}}
 
 {
-    "Name": "Spaghetti Bolognase",
-    "Description": "Tasty classic Italian Pasta",
-    "Price": 50,
-    "KiloCalories": 20
+    "name": "Owner testing",
+  "description": "Cool Place",
+  "category": "Indian",
+  "hasDelivery": true,
+  "contactEmail": "info@test.com",
+  "contactNumber": "555-1234",
+  "city": "New York",
+  "street": "1234 Main Street",
+  "postalCode": "10-010"
 
 
 }
@@ -52,7 +58,7 @@ Authorization: Bearer {{token}}
 
 {
   "Nationality": "French",
-  "DateOfBirth": "2010-01-01"
+  "DateOfBirth": "2000-01-01"
 }
 
 ###
