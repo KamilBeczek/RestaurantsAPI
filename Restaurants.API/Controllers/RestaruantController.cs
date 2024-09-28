@@ -19,9 +19,10 @@ namespace Restaurants.API.Controllers
     public class RestaruantController(IMediator mediator) : ControllerBase
     {
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<RestaurantDto>>> GetAll()
+        [AllowAnonymous]
+        public async Task<ActionResult<IEnumerable<RestaurantDto>>> GetAll([FromQuery] GetAllRestaurantsQuery query)
         {
-            var restaruants = await mediator.Send(new GetAllRestaruantsQuery());
+            var restaruants = await mediator.Send(query);
             return Ok(restaruants);
         }
 
