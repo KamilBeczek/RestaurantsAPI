@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Logging;
 using Restaurants.Domain;
 using Restaurants.Domain.Entities;
+using Restaurants.Domain.Exceptions;
 using System;
 using System.Collections.Generic;
 using System.Linq;

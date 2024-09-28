@@ -2,6 +2,7 @@
 using Restaurants.Application.Users;
 using Restaurants.Domain.Constants;
 using Restaurants.Domain.Entities;
+using Restaurants.Domain.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -42,7 +43,6 @@ public class RestaurantAuthorizationService(ILogger<RestaurantAuthorizationServi
         }
 
         return false;
-        ;
 
     }
 }

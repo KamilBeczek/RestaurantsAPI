@@ -7,6 +7,7 @@ using Restaurants.Application.Dishes.Queries.GetDishesForRestaruant;
 using Restaurants.Domain.Entities;
 using Restaurants.Domain.Repositories;
 using Restaurants.Domain;
+using Restaurants.Domain.Exceptions;
 
 namespace Restaurants.Application.Dishes.Queries.GetDishForRestaurant
 {
