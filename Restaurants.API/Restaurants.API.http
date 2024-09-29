@@ -2,7 +2,7 @@
 @token = CfDJ8NaqmwLYiH9MvKuHzIu8oKMI8EBhAevDKsGQag9WXkmbNBA1wnYYohywD-eXh3aKbtkHBqJFWPkPVBOfWBjW3GcZiTXKtFQsolYjo8bmU_nAALaYxEm1_kLrTiSYyzLeCEZZ1eKMR8_621psYyPhbOwrNVSp3aYtkoRYlmMDajR2Awuh9vZYje-xjj1ZgYaFtnkuU2Nt84_KP2CqhHfmJ5RRI-dcmwr0UCtytL7S8tlyDJSnGK_6eW6XqCDC64jX_J49o0tSI_jxoTzD-RCqBwBcfg_m-aN5e530T_7wqOq-UcBQF5QP2iEtNS7CkdQR-OGtPuo238Nolvw4fSpHDCfHO950ddXu6Xo6Cj8q5xePfRdEH4-LtzCYmQW9N52qDDLNfbjNJYRuKB8B9KhGFD2Z6jaH33L7v-7WVELCscpz1dG3RmEciKK-30Ap93PaCfXQHBCt_RLStUYIh5OuS5MXw6lPeMyayWyorb2XzIbhTJ1GLrgVCY3-0m2icjx1GfxOv1u5nIsIiMjZ1GyP2lbab-WmwvG9i8kZ2BRbDUZBP_sOuAX4aa2lzUcQ5jscuGpJJMHJTzfCyNYv85nOi_xLvBLBgeJPuFh4NSeti2ItjCjxm3jykkeMFSX5NDa3W5ujIsed6ONjKxNWs5GFJAqIJCjbMn_lahXEz3ihuK1ztz0kT_uAY57n12Sw-kEttGJ5THvGo1c-9_tt-UYDPK7bRJm0ef9_qmXsMPrjV01gneke9gFCgkYNnnXwTr2w7XWPh7pas9SPYCtnC5LmV9MwIE08j9KuVnGl5qfVOga6
 ###
 
-GET {{Restaurants.API_HostAddress}}/api/restaurants?searchPhrase=wiza&pageSize=5&pageNumber=0
+GET {{Restaurants.API_HostAddress}}/api/restaurants?searchPhrase=&pageSize=5&pageNumber=1&sortBy=Name&sortDirection=Descending
 Authorization: Bearer {{token}}
 ###
 
@@ -16,7 +16,7 @@ Content-Type: application/json
   "hasDelivery": false
 }
 
-###
+### 
 
 POST {{Restaurants.API_HostAddress}}/api/restaurants
 Content-Type: application/json

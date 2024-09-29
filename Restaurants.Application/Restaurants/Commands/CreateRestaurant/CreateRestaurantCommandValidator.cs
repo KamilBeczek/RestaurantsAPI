@@ -17,14 +17,16 @@ namespace Restaurants.Application.Restaurants.Commands.CreateRestaurant
                 .NotEmpty().WithMessage("Description is required");
 
             RuleFor(dto => dto.Category)
-                .Custom((value, context) =>
-                {
-                    var isValidCategory = validCategories.Contains(value);
-                    if (!isValidCategory)
-                    {
-                        context.AddFailure("Category", "Invalid category. Please choose from the valid categories.");
-                    }
-                });
+                .Must(validCategories.Contains)
+                .WithMessage("Invalid category. Please choose from the valid categories.");
+                //.Custom((value, context) =>
+                //{
+                //    var isValidCategory = validCategories.Contains(value);
+                //    if (!isValidCategory)
+                //    {
+                //        context.AddFailure("Category", "Invalid category. Please choose from the valid categories.");
+                //    }
+                //}); 
 
             RuleFor(dto => dto.ContactEmail)
                 .EmailAddress()
