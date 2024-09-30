@@ -10,9 +10,8 @@ using System.Threading.Tasks;
 
 namespace Restaurants.Infrastructure.Authorization.Requriments;
 
-internal class MinimumRestaurantsRequrimentHandler(ILogger<MinimumAgeRequriment> logger,
-    IUserContext userContext,
-    IRestaurantsRepository restaurantsRepository) : AuthorizationHandler<MinimumRestaurantsRequriment>
+internal class MinimumRestaurantsRequrimentHandler(IRestaurantsRepository restaurantsRepository,
+    IUserContext userContext) : AuthorizationHandler<MinimumRestaurantsRequriment>
 {
     protected override async Task HandleRequirementAsync(AuthorizationHandlerContext context, MinimumRestaurantsRequriment requirement)
     {
